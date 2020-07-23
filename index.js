@@ -39,6 +39,6 @@ module.exports = fp(async function etag (app, opts) {
     done(null, newPayload)
   })
 }, {
-  fastify: '3.x',
+  fastify: '2.x',
   name: 'fastify-etag'
 })
